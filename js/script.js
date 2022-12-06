@@ -16,6 +16,10 @@ cardLinkEl.forEach(element => {
 /*3. Найти все элементы на странице с классом "card-link", которые лежат в элементе с классом "card-body", и вывести полученную коллекцию в консоль.
 */
 
+const cardBodyEl = document.querySelector('.card-body');
+const cardLinkEl1 = cardBodyEl.querySelectorAll('.card-link');
+console.log(cardLinkEl1);
+
 
 /*4. Найти первый попавшийся элемент на странице, у которого есть атрибут data-number со значением 50 и вывести его в консоль.
 */
