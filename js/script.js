@@ -7,7 +7,11 @@ console.log(superLinkEl);
 /* 2. Внутри всех элементов на странице, которые имеют класс "card-link", поменяйте текст внутри элемента на "ссылка".
  */
 
-
+const cardLinkEl = document.querySelectorAll('.card-link');
+console.log(cardLinkEl);
+cardLinkEl.forEach(element => {
+    element.textContent = 'ссылка';
+});
 
 /*3. Найти все элементы на странице с классом "card-link", которые лежат в элементе с классом "card-body", и вывести полученную коллекцию в консоль.
 */
