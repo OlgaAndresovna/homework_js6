@@ -49,4 +49,6 @@ cardEl.prepend(pEl);
 
 /* 8. Удалите тег h6 на странице.
 */
-
+const h6El = document.querySelector('h6');
+const parentH6El = h6El.parentElement;
+parentH6El.removeChild(h6El);
