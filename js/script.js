@@ -42,6 +42,10 @@ console.log(cardTitleEl.parentElement);
 /*7. Создайте тег p, запишите внутри него текст "Привет" и добавьте созданный тег в начало элемента, который имеет класс "card".
 */
 
+const pEl = document.createElement('p');
+pEl.textContent = 'Привет';
+const cardEl = document.querySelector('.card');
+cardEl.prepend(pEl);
 
 /* 8. Удалите тег h6 на странице.
 */
