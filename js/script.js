@@ -24,7 +24,8 @@ console.log(cardLinkEl1);
 /*4. Найти первый попавшийся элемент на странице, у которого есть атрибут data-number со значением 50 и вывести его в консоль.
 */
 
-
+const dataNumberEl = document.querySelector('[data-number="50" ');
+console.log(dataNumberEl);
 
 /*5. Выведите содержимое тега title в консоль.
 */
